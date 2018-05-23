@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitDz-Sys-", "AsyncAwaitDz-Sys-\AsyncAwaitDz-Sys-.csproj", "{C3A3EFA4-FFBA-40EF-85EC-24D0053B8A26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3A3EFA4-FFBA-40EF-85EC-24D0053B8A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A3EFA4-FFBA-40EF-85EC-24D0053B8A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A3EFA4-FFBA-40EF-85EC-24D0053B8A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A3EFA4-FFBA-40EF-85EC-24D0053B8A26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72CB5927-7502-4228-9D28-6D43D92F7070}
+	EndGlobalSection
+EndGlobal
