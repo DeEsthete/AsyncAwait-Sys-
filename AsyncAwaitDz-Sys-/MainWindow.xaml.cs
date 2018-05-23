@@ -29,7 +29,7 @@ namespace AsyncAwaitDz_Sys_
             var task = Task.Run((Func<Task>)Run);
         }
 
-        static async Task Run()
+        async Task Run()
         {
             using (var dbx = new DropboxClient("ZwMCe3krJTAAAAAAAAAADIOjhexAt46jHQm3W8ymLqPbmVMZnsUMV45xBIYHVl4M"))
             {
@@ -43,7 +43,7 @@ namespace AsyncAwaitDz_Sys_
             }
         }
 
-        static async Task ListRootFolder(DropboxClient dbx)
+        async Task ListRootFolder(DropboxClient dbx)
         {
             var list = await dbx.Files.ListFolderAsync(string.Empty);
 
@@ -59,7 +59,7 @@ namespace AsyncAwaitDz_Sys_
             }
         }
 
-        static async Task Upload(DropboxClient dbx, string folder, string file, byte[] content)
+        async Task Upload(DropboxClient dbx, string folder, string file, byte[] content)
         {
             using (var mem = new MemoryStream(content))
             {
